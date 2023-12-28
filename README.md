@@ -51,6 +51,8 @@ npm run wdio-local
 
 ## Side notes
 
-There are some test cases that could fail due to different reason, that's why you will notice that I add the retries property in the `wdio.conf.ts`.
+- There are some test cases that could fail due to different reason, that's why you will notice that I add the retries property in the `wdio.conf.ts`.
 
-Regarding the browserstack part, I'm not 100% sure if all the test cases are passing, because I'm working from my girlfriend's town and in here the internet is not the best.
+- Regarding the browserstack part, I'm not 100% sure if all the test cases are passing, because I'm working from my girlfriend's town and in here the internet is not the best.
+
+- Gotta use driver.back and driver.pause to be able to finish the onboarding of the first added task.
